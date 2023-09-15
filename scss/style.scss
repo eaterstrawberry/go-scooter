@@ -50,6 +50,7 @@ body {
 	font-size: 24px;
 	align-items: center;
 	gap: 4px;
+	color: #21201F;
 	border-radius: 36px;
 	font-weight: 500;
 	background: #FFDE40;
@@ -58,6 +59,7 @@ body {
 	justify-content: center;
 	transition: all 0.5s ease;
 	&:hover {
+		color: #21201F;
 		background: #efd139;
 	}
 }
