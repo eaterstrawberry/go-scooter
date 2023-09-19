@@ -326,19 +326,19 @@ body {
 @media (max-width: 991.98px) {
   .first__items {
     position: inherit;
-    height: 716px;
+    max-height: 716px;
     transform: translateY(0px) translateX(-50px);
   }
 }
 @media (max-width: 620px) {
   .first__items {
-    height: 500px;
+    max-height: 500px;
   }
 }
 @media (max-width: 425px) {
   .first__items {
     transform: translateY(0px) translateX(-15px);
-    height: 266px;
+    max-height: 266px;
   }
 }
 .first__items img:first-child {
@@ -351,35 +351,32 @@ body {
 }
 .first__items img[alt=Community] {
   position: relative;
-  width: 195.344px;
-  height: 195.344px;
-  top: -359px;
-  left: 232px;
+  max-width: 195px;
+  max-height: 195px;
+  top: -81%;
+  left: 26%;
+}
+@media (max-width: 1199.98px) {
+  .first__items img[alt=Community] {
+    top: -95%;
+    left: 26%;
+  }
+}
+@media (max-width: 991.98px) {
+  .first__items img[alt=Community] {
+    max-width: 50%;
+    transform: translateY(-185%) translateX(0);
+  }
+}
+@media (max-width: 767.98px) {
+  .first__items img[alt=Community] {
+    transform: translateY(-185%) translateX(20%);
+  }
 }
 @media (max-width: 620px) {
   .first__items img[alt=Community] {
-    top: -310px;
-    left: 285px;
-  }
-}
-@media (max-width: 425px) {
-  .first__items img[alt=Community] {
-    width: 86px;
-    height: 86px;
-    top: -158px;
-    left: 103px;
-  }
-}
-@media (max-width: 375px) {
-  .first__items img[alt=Community] {
-    top: -142px;
-    left: 82px;
-  }
-}
-@media (max-width: 320px) {
-  .first__items img[alt=Community] {
-    top: -125px;
-    left: 61px;
+    max-width: 30%;
+    transform: translateY(-155%) translateX(-5%);
   }
 }
 .first__items svg {
@@ -388,8 +385,8 @@ body {
   z-index: -1;
   top: -980px;
   left: -80px;
-  width: 762px;
-  height: 730px;
+  max-width: 762px;
+  max-height: 730px;
 }
 @media (max-width: 991.98px) {
   .first__items svg {
@@ -409,7 +406,7 @@ body {
 .club__title {
   font-size: 56px;
   letter-spacing: -1.12px;
-  width: 827px;
+  max-width: 827px;
 }
 @media (max-width: 767.98px) {
   .club__title {
